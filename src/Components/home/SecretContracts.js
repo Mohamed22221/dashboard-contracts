@@ -54,7 +54,7 @@ flex-wrap: wrap;
 justify-content: space-between;
 width: 100%;
 
-@media (max-width: 1350px) {
+@media (max-width: 1365px) {
   justify-content: space-evenly;
 }
 

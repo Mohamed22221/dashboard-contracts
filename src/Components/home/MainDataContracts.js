@@ -40,7 +40,7 @@ padding: 10px;
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
-@media (max-width: 1350px) {
+@media (max-width: 1365px) {
   justify-content: space-evenly;
 }
 
