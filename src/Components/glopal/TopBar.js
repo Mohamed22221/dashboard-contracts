@@ -2,13 +2,15 @@ import React from 'react'
 import styled from "styled-components"
 import Search from './Search'
 import NoficationIcon from "../../assets/Icon/Nofication.svg"
-const TopBar = () => {
+import {  FiAlignJustify } from 'react-icons/fi';
+const TopBar = ({HandelClick}) => {
   return (
     <StyleTopBar>
-        <Search placeholder="أبحث عن...." />
+        <Search placeholder="أبحث عن العقود,المستثمرين, بيانات الدفع...." />
         <div className='Nofcation'>
         <a><img src={NoficationIcon}/></a>
         <span>4</span>
+       <FiAlignJustify className='par-menue' onClick={HandelClick}  />
         </div>
     </StyleTopBar>
   )
@@ -25,6 +27,7 @@ align-items: center;
 width: 100%;
 height: 60px;
 padding:10px 20px;
+
 .Nofcation{
 position: relative;
 a img{
@@ -42,6 +45,18 @@ width: 20px;
 text-align: center;
 color: white;
 } 
+}
+.par-menue{
+
+   font-size: 29px;
+    position: absolute;
+    left: -35px;
+    display: none;
+    cursor: pointer;
+    @media (max-width: 720px) {
+    display: inline-block;
+    }
+   
 }
 `
 export default TopBar

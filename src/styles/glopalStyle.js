@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 const GlopalStyle = createGlobalStyle`
 :root{
   --primary-color:#6F011C;
-  --background-color:  white;
+  --background-color:  #f5f5f5;
   --font: black;
   --font-obacity: #737C83;
   --font-two-obacity: #D0DBE5;
@@ -24,6 +24,7 @@ html {
 }
 body{
   background-color: var(--background-color);
+  
     
 }
 li{

@@ -4,65 +4,8 @@ import SideBar from '../Components/glopal/SideBar'
 const Home = () => {
   return (
     <StyleHome>
-      <SideBar />
       <ContainerHome>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1>
-        Home Home<h1>ssssss</h1> 
       </ContainerHome>
-      
     </StyleHome>
   )
 }
@@ -72,7 +15,7 @@ display: flex;
 
 `
 const ContainerHome = styled.div`
-margin-right: 150px;
+margin-right: 250px;
 @media (max-width: 720px) {
   margin-right: 15px; 
 }

@@ -18,17 +18,18 @@ form{
 position: relative;
 input{
 padding:10px;
-width: 270px;
-margin-right: 120px;
+width: 440px;
+margin-right: 220px;
 font-size: 16px;
 border: 1px solid var(--font-two-obacity);
 border-radius: 20px;
 ::placeholder{
 color:var(--font-two-obacity) ;
 }
-@media (max-width:500px) {
-width: 200px;
+@media (max-width:720px) {
+width: 240px;
 margin-right: 0px;
+padding-left:60px ;
 }
 }
 
