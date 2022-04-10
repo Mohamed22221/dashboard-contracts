@@ -36,7 +36,7 @@ padding-left:60px ;
 a img{
 width:20px ;
 position: absolute;
-bottom: 12px;
+bottom: 16px;
 left: 35px;
 }    
 }

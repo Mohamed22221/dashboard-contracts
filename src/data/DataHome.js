@@ -6,7 +6,7 @@ const DataHome = [
         NumberContracts: "30",
         AllPriceContracts: "30.000",
         percentage: 40,
-        color : "#DA2F58"
+        color : "var(--red-color)"
     }, 
     {
         id: 2,
@@ -14,7 +14,7 @@ const DataHome = [
         NumberContracts: "30",
         AllPriceContracts: "30.000",
         percentage: "20",
-        color : "#FCBC5B"
+        color : "var(--yallow-color)"
     }, 
     {
         id: 3,
@@ -22,7 +22,7 @@ const DataHome = [
         NumberContracts: "30",
         AllPriceContracts: "30.000",
         percentage: "64",
-        color : "#2FB182"
+        color : "var(--grean-color)"
     }, 
     {
         id: 4,
@@ -30,7 +30,7 @@ const DataHome = [
         NumberContracts: "30",
         AllPriceContracts: "30.000",
         percentage: "38",
-        color : "#FCBC5B"
+        color : "var(--blue-color)"
     }, 
 ]
 export default DataHome

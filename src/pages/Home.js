@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
+import MainContracts2 from '../Components/home/MainContracts2'
 import MainDataContracts from '../Components/home/MainDataContracts'
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <StyleHome>
       <ContainerHome>
         <MainDataContracts/>
+        <MainContracts2 />
       </ContainerHome>
     </StyleHome>
   )
@@ -19,7 +21,8 @@ display: flex;
 `
 const ContainerHome = styled.div`
 width: 100%;
-margin-right: 250px;
+margin-right: 240px;
+
 @media (max-width: 720px) {
   margin-right: 4px; 
 }

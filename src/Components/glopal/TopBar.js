@@ -22,6 +22,7 @@ top: 0;
 right: 0;
 left: 0;
 background-color: var(--background-color);
+z-index: 100;
 display: flex;
 align-items: center;
 width: 100%;
@@ -30,6 +31,10 @@ padding:10px 20px;
 
 .Nofcation{
 position: relative;
+
+@media (max-width:720px ) {
+  left: 15px;
+}
 a img{
 padding:0 20px;
 cursor: pointer;
@@ -40,23 +45,30 @@ top: -5px;
 left: 14px;
 background-color: var(--primary-color);
 border-radius: 50%;
-height: 21px;
-width: 20px;
+height: 18px;
+width: 18px;
 text-align: center;
 color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+
 } 
 }
 .par-menue{
 
    font-size: 29px;
     position: absolute;
-    left: -35px;
+    left: -30px;
     display: none;
     cursor: pointer;
     @media (max-width: 720px) {
     display: inline-block;
     }
    
+}
+@media (max-width:720px ) {
+  justify-content: space-evenly;
 }
 `
 export default TopBar

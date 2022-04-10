@@ -9,17 +9,12 @@ const CirclePercent = ({persentatge ,color}) => {
       <StyleCircle color={color}>
           
     <CircularProgressbar
-  value={percentage}
-  text={`${percentage}%`}
-  
-  styles={buildStyles({
-    rotation: 2.85,
-    textSize: '30px',
-    pathTransitionDuration: 2.50,
-    trail: {
-        // Trail color
-        stroke: color,
-    }
+     value={percentage}
+     text={`${percentage}%`}
+     styles={buildStyles({
+     rotation: 2.85,
+     textSize: '30px',
+     pathTransitionDuration: 2.50,
   })}
 />
     </StyleCircle>
@@ -37,6 +32,10 @@ margin-top: 12px;
 .CircularProgressbar-path {
   stroke: ${({color}) => color };
 
+}
+.CircularProgressbar-text {
+  fill: black;
+  font-weight: bold;
 }
 `
 export default CirclePercent

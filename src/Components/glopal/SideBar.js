@@ -144,7 +144,7 @@ p{
 }
 //ul icon 
 .widget{
-    margin-top: 60px;
+    margin-top: 30px;
     transition:0.7s;
     display: flex;
     justify-content: center;
@@ -157,7 +157,7 @@ p{
         align-items: center;
         cursor: pointer;
         padding: 10px;
-        margin: 13px 0;
+        margin: 10px 0;
         width: 112%;
         transition: 0.6s;
         &:hover{
