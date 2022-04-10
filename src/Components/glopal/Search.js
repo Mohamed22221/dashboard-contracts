@@ -19,7 +19,7 @@ position: relative;
 input{
 padding:10px;
 width: 440px;
-margin-right: 220px;
+margin-right: 260px;
 font-size: 16px;
 border: 1px solid var(--font-two-obacity);
 border-radius: 20px;
