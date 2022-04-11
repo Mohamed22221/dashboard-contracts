@@ -17,12 +17,13 @@ const TopBar = ({HandelClick}) => {
 }
 // style top bar
 const StyleTopBar = styled.div`
-position: sticky;
+position: fixed;
 top: 0;
 right: 0;
 left: 0;
+bottom: 0;
 background-color: var(--background-color);
-z-index: 100;
+z-index: 90;
 display: flex;
 align-items: center;
 width: 100%;

@@ -40,8 +40,12 @@ const Tabel = () => {
 }
 const StyleTabel = styled.div`
 width: 1000px;
+height: 100%;
+overflow: hidden;
 @media (max-width:1250px) {
-  width: 100%;
+  width: 98%;
+
+
 }
 padding: 10px 20px;
 
@@ -51,6 +55,7 @@ padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0;
  h3{
   padding: 10px 0;
   margin-right: 10px;

@@ -18,6 +18,7 @@ const Home = () => {
 // Style Home
 const StyleHome = styled.div`
 display: flex;
+overflow: hidden;
 `
 const ContainerHome = styled.div`
 width: 100%;
