@@ -35,7 +35,7 @@ const MainDataContracts = () => {
   )
 }
 const MainStyleData = styled.div`
-margin: 10px 0 0 5px ;
+margin: 20px 0 0 5px ;
 padding: 10px;
 display: flex;
 justify-content: space-between;

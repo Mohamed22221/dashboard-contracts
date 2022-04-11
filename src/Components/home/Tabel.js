@@ -40,7 +40,7 @@ const Tabel = () => {
 }
 const StyleTabel = styled.div`
 width: 1000px;
-height: 100%;
+
 overflow: hidden;
 @media (max-width:1250px) {
   width: 98%;

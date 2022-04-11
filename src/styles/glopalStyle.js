@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 const GlopalStyle = createGlobalStyle`
 :root{
   --primary-color:#6F011C;
-  --background-color:#efefef ;
+  --background-color:#dfdfdf ;
   // #efefef
   --font: #3D3D3D;
   --font-obacity: #737C83;

@@ -28,7 +28,7 @@ display: flex;
 align-items: center;
 width: 100%;
 height: 60px;
-padding:10px 20px;
+
 
 .Nofcation{
 position: relative;

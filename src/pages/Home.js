@@ -23,9 +23,10 @@ overflow: hidden;
 const ContainerHome = styled.div`
 width: 100%;
 margin-right: 240px;
-
+margin-top: 30px; 
 @media (max-width: 720px) {
   margin-right: 4px; 
+ 
 }
 
 `
