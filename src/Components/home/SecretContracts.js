@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Circle2 from '../../pages/circle2'
+import Circle2 from '../../Components/home/circle2'
 import DataHome2 from '../../data/DataHome2'
 const SecretContracts = () => {
   return (

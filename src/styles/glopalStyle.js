@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 const GlopalStyle = createGlobalStyle`
 :root{
   --primary-color:#6F011C;
-  --background-color:#dfdfdf ;
+  --background-color:#efefef ;
   // #efefef
   --font: #3D3D3D;
   --font-obacity: #737C83;
@@ -26,9 +26,13 @@ html {
 }
 body{
   background-color: var(--background-color);
-  
-    
+  overflow-y: visible;
+
+
 }
+    
+
+
 li{
   list-style: none;
 }

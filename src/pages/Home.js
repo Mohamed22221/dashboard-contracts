@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
+import AddedContracts from '../Components/home/AddedContracts'
 import MainContracts2 from '../Components/home/MainContracts2'
 import MainDataContracts from '../Components/home/MainDataContracts'
 
@@ -9,6 +10,7 @@ const Home = () => {
       <ContainerHome>
         <MainDataContracts/>
         <MainContracts2 />
+        <AddedContracts />
       </ContainerHome>
     </StyleHome>
   )
@@ -16,8 +18,6 @@ const Home = () => {
 // Style Home
 const StyleHome = styled.div`
 display: flex;
-
-
 `
 const ContainerHome = styled.div`
 width: 100%;
