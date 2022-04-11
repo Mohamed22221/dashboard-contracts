@@ -31,6 +31,10 @@ width: 240px;
 margin-right: 0px;
 padding-left:60px ;
 }
+@media (max-width:364px ) {
+  width: 200px;
+}
+}
 }
 
 a img{

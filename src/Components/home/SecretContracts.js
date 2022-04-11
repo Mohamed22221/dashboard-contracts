@@ -89,12 +89,13 @@ border-radius:10px ;
 const TitleSacret = styled.div`
 display:flex;
 justify-content: space-between;
-
 form #select{
  background-color:white ;
  border: none;
 
 }
+
+
 `
 const MainDataSacret= styled.div`
 display: flex;
@@ -107,6 +108,7 @@ padding: 15px 0;
   p{
   font-size: 13px;
 }
+
 }
 
 p:first-child{

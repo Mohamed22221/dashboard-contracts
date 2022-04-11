@@ -40,16 +40,11 @@ const Tabel = () => {
 }
 const StyleTabel = styled.div`
 width: 1000px;
-
 overflow: hidden;
-@media (max-width:1250px) {
+@media (max-width:1300px) {
   width: 98%;
-
-
 }
 padding: 10px 20px;
-
-
 .title {
   width: 250px;
   display: flex;
@@ -65,7 +60,6 @@ span{
   padding: 3px 10px;
 }
 }
-
 
 `
 export default Tabel

@@ -31,7 +31,11 @@ body{
 
 }
     
-
+@media (max-width:364px ) {
+  h3{
+  font-size: 16px;
+}
+}
 
 li{
   list-style: none;
