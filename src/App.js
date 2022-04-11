@@ -29,7 +29,7 @@ function App() {
       <SideBar toogleBar={toogleBar} HandelClose={HandelClose}  />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Home" element={<Home />} />
+        <Route path="/dashboard-contracts" element={<Home />} />
         <Route path="Contracts" element={<Contracts />} />
         <Route path="Investors" element={<Investors />} />
         <Route path="Payment" element={<Payment />} />

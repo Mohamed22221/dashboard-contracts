@@ -40,14 +40,14 @@ export default function Circle2(props) {
     );
   };
   return (
-    <PieChart width={150} height={150}>
+    <PieChart width={110} height={150}>
       <Pie
         data={data}
-        cx={70}
+        cx={50}
         cy={70}
         labelLine={false}
         label={renderCustomizedLabel}
-        outerRadius={60}
+        outerRadius={50}
         fill="#8884d8"
         dataKey="value"
       >

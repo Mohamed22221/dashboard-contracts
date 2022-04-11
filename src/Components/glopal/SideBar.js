@@ -30,7 +30,7 @@ const SideBar = ({toogleBar,HandelClose}) => {
         </div>
         <div className='widget'>
             <ul>
-            <Link to="/Home"  onClick={HandelClose}>
+            <Link to="/dashboard-contracts"  onClick={HandelClose}>
                 <div className='item-widget'>
                     <img src={Home} />
                     <li >لوحه التحكم</li>

@@ -24,14 +24,14 @@ const DataHome2 = [
 
      },
      {
-      name:"نماذج العقود المختلفه" ,
-      pragraph1 :"عقد تجاري نموذج 1" ,
-      pragraph2: "عقد تجاري نموذج 2" ,
-      pragraph3: "عقد تجاري نموذج 3" ,
+      name:" حاله العقود الحاليه" ,
+      pragraph1 :"العقود المقبوله" ,
+      pragraph2: "العقود المرفوضه" ,
+      pragraph3: "عقود تم مراجعتها" ,
 
-      ValueParagraph1 :550,
-      ValueParagraph2 :250 ,
-      ValueParagraph3 :150 ,
+      ValueParagraph1 :350,
+      ValueParagraph2 :150 ,
+      ValueParagraph3  :170 ,
       colorParagraph1:"var(--grean-color)",
       colorParagraph2:"var(--red-color)" ,
       colorParagraph3:"var(--blue-color)"

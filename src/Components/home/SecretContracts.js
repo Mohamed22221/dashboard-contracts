@@ -93,6 +93,7 @@ justify-content: space-between;
 form #select{
  background-color:white ;
  border: none;
+
 }
 `
 const MainDataSacret= styled.div`
@@ -102,6 +103,12 @@ justify-content: space-between;
 `
 const RightSacret= styled.div`
 padding: 15px 0;
+@media (max-width:364px ) {
+  p{
+  font-size: 13px;
+}
+}
+
 p:first-child{
   padding: 0 4px;
   border-right: 4px solid var(--grean-color);

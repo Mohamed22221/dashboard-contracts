@@ -91,12 +91,14 @@ h3{
 `
 const RightItem= styled.div`
 p{
+  @media (max-width:364px) {
+    font-size:13px;
+  }
   padding: 5px 0;
   color: var(--font-obacity);
   font-weight: bold;
   span{
   margin-right: 5px;
-  
   color: var(--font);
   }
 }
