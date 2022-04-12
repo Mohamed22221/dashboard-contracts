@@ -6,12 +6,11 @@ const AddedContracts = () => {
   return (
     <StyleAddedContracts>
         <Tabel />
+      
     </StyleAddedContracts>
   )
 }
 const StyleAddedContracts = styled.div`
 width: 100%;
-display: flex;
-justify-content: space-between;
 `
 export default AddedContracts

@@ -40,7 +40,7 @@ padding: 10px;
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
-@media (max-width: 1365px) {
+@media (max-width: 1375px) {
   justify-content: space-evenly;
 }
 
@@ -65,7 +65,6 @@ const MainItemStyleData = styled.div`
     
   }
 
-  
 .main-item{
   display: flex;
   justify-content: space-between;

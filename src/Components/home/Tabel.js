@@ -4,25 +4,25 @@ import MaterialTable from "material-table";
 
 
 const Tabel = () => {
-
+  const [selectedRow, setSelectedRow] = useState(null);
 
   const [data, setData] = useState([
-    { id: "#15861679", investor: "علي ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط" ,align:"center" , },
-    { id: "#15861679", investor: "احمد ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط" },
+    { id: "#15861679", investor: "علي ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط" ,headerStyle: { fontWeight:"bold"} },
+    { id: "#15861679", investor: "احمد ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط"  },
     { id: "#15861679", investor: "علي ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"غير نشط" },
     { id: "#15861679", investor: "علي ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"غير نشط" },
-    { id: "#15861679", investor: "علي ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط" },
+    { id: "#15861679", investor: "علي ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط" , },
     { id: "#15861679", investor: "علي ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط" },
     { id: "#15861679", investor: "علي ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط" },
     { id: "#15861679", investor: "علي ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط"  },
   ]);
 
   const columns = [
-    { title: "كود العقد",  field: "id" ,align:"center"  },
-    { title: "المستثمر", field: "investor" ,align:"center" },
-    { title: "تاريخ بدايه العقد", field: "date" ,align:"center" },
-    { title: "قيمه التعاقد", field: "price" ,align:"center" },
-    { title: "حاله العقد", field: "state" ,align:"center" , }
+    { title: "كود العقد",  field: "id" ,align:"center" ,headerStyle: { fontWeight:"bold"} ,  },
+    { title: "المستثمر", field: "investor" ,align:"center" ,headerStyle: { fontWeight:"bold"}},
+    { title: "تاريخ بدايه العقد", field: "date" ,align:"center" ,headerStyle: { fontWeight:"bold"}},
+    { title: "قيمه التعاقد", field: "price" ,align:"center",headerStyle: { fontWeight:"bold"} },
+    { title: "حاله العقد", field: "state" ,align:"center" ,headerStyle: { fontWeight:"bold"} }
     
   ];
 
@@ -33,15 +33,25 @@ const Tabel = () => {
       <span>1359</span>
       </div>
       
-    <MaterialTable   title="" data={data} columns={columns } 
+    <MaterialTable  title="" data={data} columns={columns }
+    onRowClick={((evt, selectedRow) => setSelectedRow(selectedRow.tableData.id))}
+      options={{
+        selection: true ,
+        rowStyle: { color: 'red',},
+        rowStyle: rowData => ({
+          backgroundColor: (selectedRow === rowData.tableData.id) ? "var(--primary-color)" : '#FFF',
+          color: (selectedRow === rowData.tableData.id) ? "white" : 'black'
+
+        })
+      }}
     />
     </StyleTabel>
   )
 }
 const StyleTabel = styled.div`
-width: 1000px;
 overflow: hidden;
-@media (max-width:1300px) {
+width:100%;
+@media (max-width:550px) {
   width: 98%;
 }
 padding: 10px 20px;
@@ -58,6 +68,7 @@ padding: 10px 20px;
 span{
   background-color: var(--font-obacity);
   padding: 3px 10px;
+  color: white;
 }
 }
 

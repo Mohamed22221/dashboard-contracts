@@ -54,7 +54,7 @@ flex-wrap: wrap;
 justify-content: space-between;
 width: 100%;
 
-@media (max-width: 1365px) {
+@media (max-width: 1375px) {
   justify-content: space-evenly;
 }
 
@@ -69,6 +69,7 @@ background-color: white;
 width: 360px;
 padding: 20px;
 border-radius:10px ;
+margin: 20px 0;
 @media (max-width: 1350px) {
   margin: 15px 5px;
 }
