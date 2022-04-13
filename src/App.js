@@ -7,17 +7,22 @@ import Payment from "./pages/Payments";
 import PaymentLink from "./pages/PaymentLink";
 import SideBar from "./Components/glopal/SideBar";
 import React, { useState } from 'react';
+import BackDrob from "./Components/glopal/BackDrob";
 
 
 function App() {
   // toggle menue bar and close sidebar 
   const [toogleBar, setToggleBar] = useState(false)
+  const [hide, setHide] = useState(false)
+
 
   const HandelClick = () =>{
    setToggleBar(!toogleBar)
+   setHide(!hide)
   }
   const HandelClose = () =>{
     setToggleBar(!toogleBar)
+    setHide(!hide)
    }
 
 
@@ -27,6 +32,7 @@ function App() {
     <BrowserRouter>
       <TopBar  HandelClick={HandelClick}  />
       <SideBar toogleBar={toogleBar} HandelClose={HandelClose}  />
+    {hide && <BackDrob HandelClick={HandelClick} hide={hide} /> }
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/dashboard-contracts" element={<Home />} />

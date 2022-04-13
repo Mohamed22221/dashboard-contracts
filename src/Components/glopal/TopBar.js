@@ -23,7 +23,7 @@ right: 0;
 left: 0;
 bottom: 0;
 background-color: var(--background-color);
-z-index: 90;
+z-index: 100;
 display: flex;
 align-items: center;
 width: 100%;

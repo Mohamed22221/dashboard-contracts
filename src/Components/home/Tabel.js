@@ -7,14 +7,19 @@ const Tabel = () => {
   const [selectedRow, setSelectedRow] = useState(null);
 
   const [data, setData] = useState([
-    { id: "#15861679", investor: "علي ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط" ,headerStyle: { fontWeight:"bold"} },
+    { id: "#15861679", investor: "محمد ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط" ,headerStyle: { fontWeight:"bold"} },
     { id: "#15861679", investor: "احمد ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط"  },
     { id: "#15861679", investor: "علي ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"غير نشط" },
-    { id: "#15861679", investor: "علي ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"غير نشط" },
-    { id: "#15861679", investor: "علي ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط" , },
-    { id: "#15861679", investor: "علي ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط" },
-    { id: "#15861679", investor: "علي ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط" },
-    { id: "#15861679", investor: "علي ابراهيم" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط"  },
+    { id: "#15861679", investor: "علي احمد" ,date:"28/4/2022" ,price:"$59791" ,state:"غير نشط" },
+    { id: "#15861679", investor: "حسام علي" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط" , },
+    { id: "#15861679", investor: "سامي خالد" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط" },
+    { id: "#15861679", investor: "يارا سامي" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط" },
+    { id: "#15861679", investor: "كمال مراد" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط"  },
+    { id: "#15861679", investor: "فوزي سيد" ,date:"28/4/2022" ,price:"$59791" ,state:"غير نشط" },
+    { id: "#15861679", investor: "ساميه علي" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط" , },
+    { id: "#15861679", investor: "سامي خالد" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط" },
+    { id: "#15861679", investor: "شيماء سامي" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط" },
+    { id: "#15861679", investor: "علي مراد" ,date:"28/4/2022" ,price:"$59791" ,state:"نشط"  },
   ]);
 
   const columns = [
